@@ -1,5 +1,0 @@
-requests
-termcolor
-colored
-SimpleQIWI
-Vk_api
