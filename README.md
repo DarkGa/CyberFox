@@ -5,10 +5,6 @@
 ```
 pkg update && pkg install git 
 ```
-* 2. install pip,  python, and python2
-```
-pkg install python && pkg install python2 && pip install --upgrade pip
-```
 ## Install CyberFox
 * 1. copy file
 ```
@@ -20,13 +16,12 @@ cd CyberFox
 ```
 * 3. install setting
 ```
-pip install -r requirements.txt
+chmod +x *
 ```
-* 4. install packetg wget
 ```
-pkg install wget
+./install.sh
 ```
-* 5. start CyberFox
+* 4. start CyberFox
 ```
 python3 CyberFox.py
 ```
