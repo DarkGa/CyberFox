@@ -23,5 +23,5 @@ chmod +x *
 ```
 * 4. start CyberFox
 ```
-python3 CyberFox.py
+cf
 ```
