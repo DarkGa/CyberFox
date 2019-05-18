@@ -14,5 +14,5 @@ def write_msg(user_id, s, random_id):
 
  vk.method('messages.send', {'user_id':user_id,'message':msg,'random_id':random.randint(1, 2147879)})
 
-write_msg('337045829', 'connected server...', 'random_id')
+write_msg(id, 'connected server...', 'random_id')
 print("sorry don't connect'")
