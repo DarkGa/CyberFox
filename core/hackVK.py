@@ -1,4 +1,5 @@
 
+
 import vk_api
 import random
 print("HACK VK")
