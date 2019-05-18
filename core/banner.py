@@ -16,7 +16,7 @@ banner = r"""
 """+C+"""           \______/                                                                    
   """+W+"""   +---------------+  +---------------+
      |   CyberFox    |  |  1- hack QIWI |
-     |  Version 2.6  |  |  2- hack VK   |
+     |  Version 2.7  |  |  2- hack VK   |
      |   3 modules   |  |3- bot Vk(beta)|
      +---------------+  +---------------+
      
