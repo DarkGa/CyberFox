@@ -8,7 +8,7 @@ import random
 
 def viv():
 	try:
-		tok  = input(B+"\n[cbf]"+W+" Enter token: ) 
+		tok  = input(B+"[cbf]"+W+" Enter token: ") 
 		pho  = input(B+"[cbf]"+W+" Enter phone: ")
 		pho2 = input(B+"[cbf]"+W+" Enter your phone: ")
 		com = input(B+"[cbf]"+W+" Enter comment: ")
