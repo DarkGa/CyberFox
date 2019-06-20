@@ -14,14 +14,7 @@ git clone https://github.com/DarkGa/CyberFox
 ```
 cd CyberFox
 ```
-* 3. install setting
+* 3. start CyberFox
 ```
-chmod +x *
-```
-```
-./install.sh
-```
-* 4. start CyberFox
-```
-cf
+python3 CybetFox.py
 ```
