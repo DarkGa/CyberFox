@@ -5,7 +5,6 @@ try:
 except:
 	print(Y+"install SimpleQIWI"+W)
 	os.system("pip install SimpleQIWI &> install.log")
-from core import balance
 from core import main
 from core import vivod
 from time import sleep as ts
