@@ -1,1 +1,1 @@
-cd ../CyberFox && python3 CyberFox.py
+cd ~/../home/CyberFox && python3 CyberFox.py
