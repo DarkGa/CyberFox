@@ -20,6 +20,7 @@ def chek():
 	try:
 		code = subprocess.call("wget")
 		os.system("clear")
+		print(R+"plz enter Y"+W)
 		os.system("apt install wget &> install.log")
 		a = G+"done"+W
 		pass
