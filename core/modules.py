@@ -40,8 +40,6 @@ def chek():
 	print(c)
 	ts(2)
 def update():
-	print(G+"check new version"+W)
-	ts(1)
 	os.system("mkdir update_check")
 	os.system("cd ../CyberFox/update_check && wget https://raw.githubusercontent.com/DarkGa/CyberFox/master/ver.txt &> update.log")
 	try:
@@ -51,7 +49,7 @@ def update():
 	os.system("cd ../ && cd CyberFox")
 	os.system("rm -rf update_check")
 	os.system("clear")
-	print(B+"check new version"+W)
+	print(Y+"check new version"+W)
 	ts(1)
 	try:
 		if update == True:
